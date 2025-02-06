@@ -1,0 +1,126 @@
+
+  footer {
+    background: url(./image/main-footer.jpg);
+    background-color: #172226;
+    padding: 82px 150px;
+    background-size: cover;
+    background-position: 0 bottom;
+    border-bottom: 2px solid #4596b0;
+  }
+  
+  .footer .row {
+    display: flex;
+    gap: 600px;
+  }
+  
+  .footer .row .column {
+    width: 15%;
+  }
+  
+  .footer .row .column h2 {
+    color: #3795d5;
+    font-size: 25px;
+  }
+  
+  .footer .row .column:first-child {
+    width: 35%;
+  }
+
+  .footer .column .logo-style {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer .desc {
+    max-width: 700px;
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 1.85;
+    font-family: "Samsung Sharp Sans Bold VH"
+  }
+  
+  .footer .title {
+    padding-right: 1px;
+    color: #469fe3;
+    font-size: 15px;
+    font-weight: 650;
+    line-height: 1.75;
+  }
+  .footer .title a {
+    color: #1774b2;
+    font-size: 15px;
+  }
+  .footer .title :hover {
+    border-bottom: 4px solid #e3c068;
+  }
+  
+  .footer .list {
+    margin-top: 15px;
+    list-style: none;
+  }
+  
+  .footer p {
+    display: inline-block;
+    margin-bottom: 1px;
+    color: #7b7970;
+    font-size: 14px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    line-height: 1.85;
+  }
+  
+  .footer .list strong {
+    color: #554f4f;
+    font-size: 13px;
+    font-weight: 550;
+    line-height: 1.85;
+  }
+  
+  .copyright p {
+    padding: 15px 0;
+    color: #185c86;
+    text-align: center;
+    font-size: 17px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    line-height: 1.86;
+  }
+
+  .after-footer {
+    border-bottom: 2px solid #dbf1c4;
+  }
+
+  .footerbox1{
+    display: flex;
+    flex-direction: column; /* Đặt các items theo chiều dọc */
+    align-items: flex-start; /* Gióng các items thẳng hàng dọc */
+    gap: 5px; /* Khoảng cách giữa các items */
+    margin-left: 150px;
+  }
+
+  h2 {
+    color: #3795d5;
+    font-size: 25px;
+  }
+
+  .socials {
+    display: flex;
+    gap: 15px;
+    margin-left: -15px;
+  }
+
+  .footerbox2{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .column1 .column2 .column3{
+    display: flex;
+    flex-direction: column; /* Các phần tử xếp theo chiều dọc */
+    align-items: flex-start; /* Căn tất cả phần tử về bên trái */
+  }
+
+  ul{
+    display: flex;
+    flex-direction: column; /* Các phần tử xếp theo chiều dọc */
+    align-items: flex-start; /* Căn tất cả phần tử về bên trái */
+  }
